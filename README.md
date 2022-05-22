@@ -1,6 +1,6 @@
 # club_house_clone_app
 
-A new Flutter project.
+A Clubhouse clone app project to display my thought process on how to build an app following clean and scoped approach.
 
 ## Getting Started
 
