@@ -1,6 +1,8 @@
 import 'dart:async';
 import 'package:club_house_clone_app/src/features/online_contacts/mappers/online_contact_failure_mapper.dart';
 import 'package:club_house_clone_app/src/shared/abstractions/i_mapper.dart';
+import 'package:equatable/equatable.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../../shared/shared.dart';
 import '../online_contacts.dart';
 part 'online_contact_state.dart';
