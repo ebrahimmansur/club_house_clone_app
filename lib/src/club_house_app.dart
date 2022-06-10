@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'features/home/screens/home_screen.dart';
 import 'shared/shared.dart';
 
 class ClubHouseApp extends StatelessWidget {
@@ -8,8 +9,12 @@ class ClubHouseApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: StringResource.appTitle,
+      onGenerateTitle: (context) => StringResource.appTitle,
       debugShowCheckedModeBanner: false,
+      theme: ThemeResource.lightTheme,
+      darkTheme: ThemeResource.darkThem,
+      themeMode: ThemeMode.light,
+      home: const HomeScreen(),
     );
   }
 }
